@@ -9,8 +9,13 @@ Neste caso essa tela pode ser util.
 
 
 * Como utilizar 
-** Clona esse repositório
+
+** Clonar esse repositório
+git clone https://github.com/wagnermarques/sorteios.git
+
 ** Dê um clique duplo no html pra abrir a tela no navegador
+
 ** Carregar um csv com nomes
+
 ** CLique no botao sortear
 

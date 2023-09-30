@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
     btnSortear.addEventListener('click', function() {
         if (names.length > 0) {
             const randomIndex = Math.floor(Math.random() * names.length);
-            console.log("Numero Sorteado: "+ randomIndex);
             const randomName = names[randomIndex].trim();
             names.splice(randomIndex, 1);
 
@@ -50,6 +49,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displaySelectedName(name) {
         const listItem = document.createElement('li');
+        
+        // Add the "fs-1" class to the list item for increased font size
+        listItem.classList.add('h5');
+
+        
         listItem.textContent = name;
         selectedNamesList.appendChild(listItem);
     }
