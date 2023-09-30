@@ -1,0 +1,16 @@
+#+Title: Sortear Nomes
+
+Tela html/js pra sortear nome.
+
+* Justificativa
+Os sites de sorteios sao bons mas tem propagandas e as vezes muitas pessoas estão vendo a tela na hora do sorteio e o problema é que não se sabe que tipo de propaganda pode aparecer.
+
+Neste caso essa tela pode ser util.
+
+
+* Como utilizar 
+** Clona esse repositório
+** Dê um clique duplo no html pra abrir a tela no navegador
+** Carregar um csv com nomes
+** CLique no botao sortear
+
